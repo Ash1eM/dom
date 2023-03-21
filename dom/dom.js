@@ -8,3 +8,8 @@ const myTemp= `
   <li> ${joke2} </li>
   <li> ${joke3} </li>
 `;
+main.innerHTML = myTemp;
+
+const p= document.createElement('firstParagraph')
+p.textContent = "That's All Folks!"
+main.appendChild(p);
